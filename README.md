@@ -30,9 +30,11 @@ git clone https://github.com/datkat21/Pluto-TS-DevEnv
 ```
 
 2. Open VS Code to this repository.
-   - Open a terminal and run `bun start`.
+     - Open a terminal and run `bun install`.
+     - Once it's done, run `bun start`.
 3. Install and run the _Pluview_ app from the Pluto App Store
-4. You should find your app(s) in the Pluview item in the tray.
+4. Expand the `src/apps` folder in your code editor and start coding
+5. You should find your app(s) in the Pluview item in the tray.
 
 ## Getting Started - Windows
 
@@ -58,9 +60,11 @@ git clone https://github.com/datkat21/Pluto-TS-DevEnv
 ```
 
 1. Open VS Code to this repository using Remote - WSL or Open Folder.
-
-   - Open a terminal and run `bun start`.
+     - Open a terminal and run `bun install`.
+     - Once it's done, run `bun start`.
 
 2. Install and run the _Pluview_ app from the Pluto App Store
 
-3. You should find your app(s) in the Pluview item in the tray.
+3. Expand the `src/apps` folder in your code editor and start coding
+
+4. You should find your app(s) in the Pluview item in the tray.

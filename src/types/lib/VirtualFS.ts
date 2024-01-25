@@ -2,8 +2,8 @@ export interface VirtualFS {
   exportFS: () => Promise<void>;
   importFS: () => Promise<void>;
   getParentFolder: (path: string) => Promise<string>;
-  whatIs: (path: string, fsObject?: object) => "dir" | "file";
-  readFile: (path: string, fsObject?: object, bypass?: boolean) => string;
+  whatIs: (path: string, fsObject?: object) => Promise<"dir" | "file">;
+  readFile: (path: string, fsObject?: object, bypass?: boolean) => Promise<string>;
   writeFile: (
     path: string,
     contents: string | Blob,

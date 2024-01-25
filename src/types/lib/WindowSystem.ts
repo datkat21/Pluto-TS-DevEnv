@@ -1,3 +1,7 @@
+export interface WindowSystem {
+  win: WsWindowConstructor;
+}
+
 export interface WsWindowOptions {
   id?: string;
   width?: number;

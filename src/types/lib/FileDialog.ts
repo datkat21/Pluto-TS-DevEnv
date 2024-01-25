@@ -1,4 +1,4 @@
 export interface FileDialog {
   pickFile: (path: string) => Promise<string | false>;
-  saveFile: (path: string) => Promise<boolean>;
+  saveFile: (path: string) => Promise<string | false>;
 }
