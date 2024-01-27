@@ -172,10 +172,3 @@ out
 
 # Finder (MacOS) folder config
 .DS_Store
-
-
-# bun
-public/dist/apps/**
-!public/dist/apps/MyFirstApp.js
-src/apps/**
-!src/apps/MyFirstApp.ts
